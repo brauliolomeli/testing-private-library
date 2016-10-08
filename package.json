@@ -4,12 +4,10 @@
   "scripts": {
     "lint": "tslint src/**/*.ts",
     "test": "tsc && karma start",
-    "postinstall": "typings install",
     "prepublish": "tsc",
     "tsc": "tsc",
     "typings": "typings",
     "build": "rm -rf dist/ && cp -r src dist && find -E ./dist -type f ! -regex '.*\\.(html|css)' -delete && tsc"
-    
   },
   "repository": {
     "type": "git",
