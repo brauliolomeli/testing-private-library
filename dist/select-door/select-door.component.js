@@ -9,24 +9,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
-/**
- * Transforms any input value
- */
-var SamplePipe = (function () {
-    function SamplePipe() {
+var SelectDoorComponent = (function () {
+    function SelectDoorComponent() {
     }
-    SamplePipe.prototype.transform = function (value, args) {
-        if (args === void 0) { args = null; }
-        return value;
-    };
-    SamplePipe = __decorate([
-        core_1.Pipe({
-            name: 'samplePipe'
-        }),
-        core_1.Injectable(), 
+    SelectDoorComponent.prototype.ngOnInit = function () { };
+    SelectDoorComponent = __decorate([
+        core_1.Component({
+            selector: 'select-door',
+            templateUrl: 'select-door.component.html',
+            styleUrls: ['select-door.component.css'],
+        }), 
         __metadata('design:paramtypes', [])
-    ], SamplePipe);
-    return SamplePipe;
+    ], SelectDoorComponent);
+    return SelectDoorComponent;
 }());
-exports.SamplePipe = SamplePipe;
-//# sourceMappingURL=sample.pipe.js.map
+exports.SelectDoorComponent = SelectDoorComponent;
+//# sourceMappingURL=select-door.component.js.map

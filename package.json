@@ -30,13 +30,23 @@
   "dependencies": {
   },
   "devDependencies": {
-    "@angular/core": "2.0.0-rc.3",
+    "@angular/common": "2.0.0",
+    "@angular/compiler": "2.0.0",
+    "@angular/core": "2.0.0",
+    "@angular/forms": "2.0.0",
+    "@angular/http": "2.0.0",
+    "@angular/platform-browser": "2.0.0",
+    "@angular/platform-browser-dynamic": "2.0.0",
+    "@angular/router": "3.0.0",
+    "core-js": "^2.4.1",
+    "rxjs": "5.0.0-beta.12",
+    "testing-private-library": "github:brauliolomeli/testing-private-library#blomeli",
+    "ts-helpers": "^1.1.1",
+    "zone.js": "^0.6.23",
     "codelyzer": "^0.0.20",
-    "rxjs": "5.0.0-beta.6",
     "tslint": "^3.6.0",
     "typescript": "^1.8.10",
-    "typings":"^1.0.4",
-    "zone.js": "0.6.12"
+    "typings":"^1.0.4"
   },
   "engines": {
     "node": ">=0.8.0"
